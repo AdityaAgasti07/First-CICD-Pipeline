@@ -4,7 +4,7 @@ Install Jenkins, configure Docker as agent, set up cicd, deploy applications to 
 
 # AWS EC2 Instance
 
- ![Screenshot 2024-03-20 000049](https://github.com/AdityaAgasti07/My-first-Pipeline/assets/159541012/d77b339f-b506-4f4b-ad52-f0fb929db9ff)
+![Screenshot 2024-03-20 000049](https://github.com/AdityaAgasti07/First-CICD-Pipeline/assets/159541012/46d5e7c1-7a25-4dfc-8697-accc3d634e54)
 
 # Install Jenkins 
 install java
@@ -37,19 +37,19 @@ Note: If you are not interested in allowing All Traffic to your EC2 instance 1. 
 
 After you login to Jenkins, - Run the command to copy the Jenkins Admin Password - sudo cat /var/lib/jenkins/secrets/initialAdminPassword - Enter the Administrator password
 
-![Screenshot 2024-03-20 000025](https://github.com/AdityaAgasti07/My-first-Pipeline/assets/159541012/c2143db1-c527-4916-88a8-ccef3377a43d)
+![Screenshot 2024-03-20 000025](https://github.com/AdityaAgasti07/First-CICD-Pipeline/assets/159541012/8e5c926c-03c4-45a0-a15f-45dac34b18f7)
 
 ## Click on Install Suggested Plugins
 
-![Screenshot 2024-03-20 000327](https://github.com/AdityaAgasti07/My-first-Pipeline/assets/159541012/15b2835f-0b50-40ed-93d0-72c62ee25276)
+![Screenshot 2024-03-20 000327](https://github.com/AdityaAgasti07/First-CICD-Pipeline/assets/159541012/4978bdf7-6af3-4e0d-a7a0-50f73741e9c5)
 
 Create First Admin User or Skip the step [If you want to use this Jenkins instance for future use-cases as well, better to create admin user]
 
-![Screenshot 2024-03-20 000655](https://github.com/AdityaAgasti07/My-first-Pipeline/assets/159541012/ebbda002-8b0f-4add-94b1-ebbabb475af4)
+![Screenshot 2024-03-20 000655](https://github.com/AdityaAgasti07/First-CICD-Pipeline/assets/159541012/742f8826-3126-4547-a3f1-b3dc06dd42a0)
 
 Jenkins Installation is Successful. You can now starting using the Jenkins
 
-![Screenshot 2024-03-20 000747](https://github.com/AdityaAgasti07/My-first-Pipeline/assets/159541012/ba97709a-65b1-49b8-8886-2e53377bd2dd)
+![Screenshot 2024-03-20 000747](https://github.com/AdityaAgasti07/First-CICD-Pipeline/assets/159541012/b6c118de-ea5d-4f93-9668-3cc46072c59b)
 
 ## Install the Docker Pipeline plugin in Jenkins:
 
@@ -59,7 +59,7 @@ Jenkins Installation is Successful. You can now starting using the Jenkins
    - Select the plugin and click the Install button.
    - Restart Jenkins after the plugin is installed.
 
-![Screenshot 2024-03-20 002712](https://github.com/AdityaAgasti07/My-first-Pipeline/assets/159541012/377d54ec-4286-4e8d-9409-8b2a06df917b)
+![Screenshot 2024-03-20 002712](https://github.com/AdityaAgasti07/First-CICD-Pipeline/assets/159541012/dca17f06-fcdf-44c5-8c34-14f9fe88ca16)
 
 Wait for the Jenkins to be restarted.
 
